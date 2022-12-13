@@ -1,18 +1,21 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
- * Return: Always 0 (Success)
+ *
+ * Return: Always 0 (success)
  */
+
 int mani(void)
 {
 	char c;
 
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		if (c != 'e' && c != 'q')
-		putchar(c);
-	}
+	c = 'a';
+	while
+		(c <= 'z') {
+			if ((c != 'q' && c != 'e') && c <= 'z')
+				putchar(c);
+			c++;
+		}
 	putchar('\n');
 	return (0);
 }
