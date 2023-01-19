@@ -10,5 +10,5 @@
 	{
 		if (name == NULL || f == NULL)
 			return;
-		fr(name);
+		f(name);
 	}
